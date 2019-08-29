@@ -1,7 +1,7 @@
 # Task 1
 This tasks involved: 
 
-    1. Creating a simple web page with just HTML
+    1. Creating a simple web page with just HTML and CSS
     
     2. Using Cloudinary to add image to the web page
   
