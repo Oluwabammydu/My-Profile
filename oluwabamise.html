@@ -2,23 +2,29 @@
 <html>
 <head>
 	<title>My Resume</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		function toSubmit(){
+			alert("Form Submitted Successfully...");
+		}
+	</script>
 </head>
 <body>
 	<div class="container">
 		<header>
-			<h1 align="center">RESUME</h1>
 		</header>
 		
 		<main>
 			<div class="info">
+				<div class="overlay"></div>
 				<img class="profile" src="https://res.cloudinary.com/oluwabamise/image/upload/v1554379163/1_UhzkuLZVGEncFPrWafablQ.jpg">
 				
 					<h2 id="name"> OLUWABAMISE ADEBAYO OJO</h2>
 					<span class="role">Front End Developer</span>
 					<div class="account">
-						<a href="http://github.com/Oluwabammydu"><img src="images/github.png"></a> 
-						<a href="https://medium.com/@Oluwabamise_O"><img src="images/medium.png"></a>
+						<a href="http://github.com/Oluwabammydu" target="blank"><img src="images/github.png"></a> 
+						<a href="https://medium.com/@Oluwabamise_O" target="blank"><img src="images/medium.png"></a>
 					</div>
 			</div>
 
@@ -93,12 +99,28 @@
 				</ul>
 			</div>
 				
+		
+
+			<div class="contact-container">
+				<div>
+					<h3>Do you want to reach me?</h>
+					<h4>Kindly leave a message:</h4>
+				</div>
+			<div class="row">
+				<div class="column">
+				<form>
+					<input type="text" id="lname" required minlength="4" placeholder="Your name..">
+					<input type="email" id="email"  required minlength="4" placeholder="Your Email">
+					<input type="text" id="title" required  placeholder="Title">
+					<textarea id="mesaage" required minlength="20" placeholder="Write your message.." style="height:170px"></textarea>
+					<input type="submit" value="Submit" onclick="toSubmit()">
 
 
-
-			
-
-			
+				</form>
+				</div>
+			</div>
+			</div>
+               
 
 		</main>
 		
